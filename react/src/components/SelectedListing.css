@@ -1,0 +1,86 @@
+.selected-listing {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .wrapper-selected-listing {
+    max-width: fit-content;
+    margin: auto;
+  }
+
+  .bookings-section{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    cursor: default;
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 170px ;
+  }
+
+  .leave-review-form{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 540px; 
+    height: 160px;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 25%;
+    top: 0;
+    background-color: white;
+    padding: 7%;
+  }
+
+  .review-div-listing{
+    width: 550px;
+    height: 130px;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-left: 90px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .booking-car-img{
+    width: 300px;
+    height:170px;
+    object-fit:cover;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+  }
+
+  .delete-listing-button:hover{
+    text-decoration: underline;
+  }
+
+  .driver-details-click:hover{
+    text-decoration: underline;
+  }
+  
+  .reviewss-div{
+    text-align: left;
+    width: 50%;
+    height: fit-content;
+    min-height: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+    max-width: 45%;
+  }
+  
+  .reviewss-field{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+.edit-description:hover{
+  text-decoration: underline;
+
+}

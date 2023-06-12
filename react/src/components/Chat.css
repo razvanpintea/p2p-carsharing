@@ -1,0 +1,16 @@
+.chat-app{
+    display:flex;
+    flex-direction: column;
+    width: 110vh;
+    height: 64vh;
+}
+
+@media screen and (min-width: 1920px) {
+    /* styles for monitors */
+    .chat-app{
+        display:flex;
+        flex-direction: column;
+        width: 110vh;
+        height: 66vh;
+    }
+  }

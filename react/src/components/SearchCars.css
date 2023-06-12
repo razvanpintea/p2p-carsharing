@@ -1,0 +1,49 @@
+body{
+  font-family: 'Geometric Sans Serif', sans-serif;
+
+}
+.car-info {
+  display: inline-block;
+  width: 250px;
+  height: 230px;
+  margin-right: 25px;
+  margin-left: 25px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  }
+
+.price{
+  margin-left: 58%;
+  font-weight: bold;
+  }
+
+.totalPrice{
+  margin-left: 50%;
+  font-weight: bold;
+  }
+
+  .searchCarsDiv{
+    text-align: left;
+    margin-left: 10%;
+
+  }
+
+.sorry-message{
+  position: absolute;
+  margin-top: 200px;
+  /* margin-left: 50px; */
+}
+
+.filter-div-search{
+  position: absolute;
+  left: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}

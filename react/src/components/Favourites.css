@@ -1,0 +1,26 @@
+.favourite-car-img {
+    width: 230px;
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 150px;
+    object-fit: cover;
+}
+  
+.favourite-info{
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+    height: 150px;
+    border-radius: 10px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 30px; 
+}
+
+.car-details-favourite{
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 18px;
+}

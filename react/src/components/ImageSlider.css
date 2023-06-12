@@ -1,0 +1,29 @@
+.previous-image, .next-image{
+opacity: calc(40%);  
+transition: opacity 0.3s;  
+
+}
+
+.previous-image:hover, .next-image:hover{
+  opacity: calc(100%);  
+  }
+  
+.image-slider-container{
+  position: relative;
+  max-width: fit-content;
+  margin:auto;
+}
+
+.previous-image {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.next-image {
+  position: absolute;
+  right: 0;
+  top: 45%;
+  transform: translateY(-50%);
+}

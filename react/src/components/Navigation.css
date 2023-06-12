@@ -1,0 +1,11 @@
+body{
+    font-family: 'Geometric Sans Serif', sans-serif;
+}
+
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}

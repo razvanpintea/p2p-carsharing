@@ -1,0 +1,299 @@
+body{
+    margin-top: 7%;
+    font-family: 'Geometric Sans Serif', sans-serif;
+}
+
+.account-heading{
+    text-align: left;
+}
+
+.title{
+margin-bottom: 3%; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    margin-top: 3%;
+}
+
+
+ul.clickable-list li {
+    color: black;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+  
+  ul.clickable-list li:hover {
+    text-decoration: underline;
+
+  }
+  
+
+.personal-details, .driving, .account {
+    float: left;
+    height: 170px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    width: 28%;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Geometric Sans Serif', sans-serif;
+      
+}
+
+.container {
+    display: flex;
+    margin-left: 7%;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    width: 15%;
+  }
+ 
+
+
+  .user{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    width: 530px; 
+    height: 20px;
+    font-size: 15px;
+  }
+
+  .pass{ 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    width: 540px; 
+    height: 29px;
+    font-size: 15px;
+     }
+  
+
+  .login-button {
+    margin-top: 2%;
+    border: 2px solid #5692F5;
+    border-radius: 10px;
+    padding: 5px;
+    width: 550px; 
+    height: 40px;
+    font-size: 15px;
+    background-color: #5692F5;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+
+.login-h1{
+    margin-bottom: 3%;
+    text-align: center;
+  }
+  
+  .forgot{
+    font-size: 15px;
+    text-align: left;
+    
+  }
+  .forgot:hover{
+    text-decoration: underline;
+  }
+  
+
+.sign-up-link{
+    color: #5692F5;
+    text-decoration: none;
+}
+
+.sign-up{
+    margin-top: 3%;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  
+.sign-up-link:hover{
+    text-decoration: underline;
+  }
+
+
+.login-div{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 33%;
+}
+
+.my-bookings,.my-listings, .my-reviews, .other-reviews {
+  text-decoration: none;
+  color: black;
+}
+
+
+a.my-bookings:visited, a.my-listings:visited, a.my-reviews:visited,  a.other-reviews:visited  {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.my-upload li {
+  color: blue;
+}
+
+.upload-licence-form{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  width: 540px; 
+  height: 270px;
+  font-size: 15px;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  background-color: white;
+  padding: 7%;
+}
+
+.form-elements{
+position: absolute;
+top: 0;
+right: 60;
+margin-top: 40px;
+}
+
+.profile-picture{
+transition: filter 0.3s;  
+}
+
+.profile-picture:hover{
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
+
+
+.personal-details-new{
+  float: left;
+  height: 490px;
+  /* height: 31em; */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin-left: 20px;
+  width: 28%;
+  overflow: hidden;
+  text-align: left;
+  font-family: 'Geometric Sans Serif', sans-serif;
+    
+}
+
+.driving-new, .account-new {
+  float: left;
+  height: 220px;
+  /* height: 14em; */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin-left: 20px;
+  width: 30em;
+  overflow: hidden;
+  text-align: left;
+  font-family: 'Geometric Sans Serif', sans-serif;
+    
+}
+
+.driving-and-account{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-new{
+align-items:center ;
+margin-left: 21%;
+}
+
+.photo-container{
+  margin-bottom: 3em;
+    position: relative;
+    width: 300px;
+    height: 0;
+    padding-bottom: 50%;
+  
+}
+
+.imaginary-p{
+margin-bottom: 2em;
+}
+
+.p-update-profile{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.verification-photo, .licence-photo{
+  width: 220px;
+  height: 220px;
+  transition: filter 0.3s;   
+  object-fit: contain;
+  ; 
+}
+
+.verification-photo:hover, .licence-photo:hover{
+   filter: brightness(50%);
+   cursor: pointer;    
+}
+
+.verification-photos{
+  display: flex;
+  flex-direction: row;
+}
+
+.licence-photo-div{
+  margin-left: 15%;
+}
+
+.upload-licence-button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #5692F5;
+  color: white;
+  font-size: 16px;
+  border: none;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.personal-information-heading{
+  margin-top: 50px;
+  text-align: left ;
+}
+
+.verified-div{
+  display: flex;
+  flex-direction: row;
+}

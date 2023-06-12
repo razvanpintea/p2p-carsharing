@@ -1,0 +1,14 @@
+.bookings-info{
+    height: 50%;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 1200px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.return-bookings{
+    margin-left: 10%;
+    text-align: left;
+}

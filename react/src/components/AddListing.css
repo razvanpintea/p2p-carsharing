@@ -1,0 +1,77 @@
+
+.image-container-host {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px; /* first column is 500px wide */
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr ;
+    grid-gap: 10px;
+}
+  
+
+.image1-host{
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+  width: 350px;
+  height: 350px;
+  transition: filter 0.3s;  
+  object-fit: cover;
+}
+
+.image2-host{
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    width: 170px;
+    height: 170px;
+    transition: filter 0.3s;  
+    object-fit: cover;
+  }
+
+  .image3-host{
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+    width: 170px;
+    height: 170px;
+    transition: filter 0.3s;  
+    object-fit: cover;
+    border-top-right-radius: 10px;
+  }
+
+  .image4-host{
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    width: 170px;
+    height: 170px;
+    transition: filter 0.3s;  
+    object-fit: cover;
+    
+  }
+
+  .image5-host{
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+    width: 170px;
+    height: 170px;
+    transition: filter 0.3s;    
+    object-fit: cover;
+    border-bottom-right-radius: 10px;
+  }
+
+  .image1-host:hover,.image2-host:hover,.image3-host:hover,.image4-host:hover,.image5-host:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+  }
+
+.add-listing-main-div{
+  max-width: fit-content;
+  margin: auto;
+}
+
+.add-listings-cities{
+  width: 500px !important;
+}
+
+.upload-car-p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
