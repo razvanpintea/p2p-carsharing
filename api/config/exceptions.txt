@@ -1,0 +1,10 @@
+SQLSTATE[HY000] [14] unable to open database file
+SQLSTATE[HY000] [14] unable to open database file
+http_response_code(): Argument #1 ($response_code) must be of type int, string given
+SQLSTATE[HY000] [14] unable to open database file
+SQLSTATE[HY000] [14] unable to open database file
+SQLSTATE[HY000] [14] unable to open database file
+syntax error, unexpected variable "$data", expecting "function" or "const"
+Call to undefined method Base::setData()
+Call to undefined method Base::getData()
+Call to a member function getData() on array
